@@ -1,0 +1,24 @@
+{
+  "name": "packing-bot",
+  "version": "0.0.1",
+  "description": "Telegram bot for tracking packages (DHL, UPS, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "tracking",
+    "packages",
+    "dhl"
+  ],
+  "author": "Pablo Caselas",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.1.14",
+    "node-telegram-bot-api": "^0.21.1",
+    "request": "^2.69.0",
+    "shipit": "^0.8.11"
+  }
+}
